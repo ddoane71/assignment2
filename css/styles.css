@@ -1,6 +1,14 @@
  h1,
  h2 {
-     color: rgb(218, 22, 47);
+     color: rgb(0, 0, 50);
      font-family: monospace;
-     font-weight: 500
+     background-color: cornsilk
+ }
+
+ body {
+     background-color: floralwhite
+ }
+
+ main {
+     background-color: floralwhite
  }
