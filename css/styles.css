@@ -1,7 +1,7 @@
  h1,
  h2 {
      color: rgb(0, 0, 50);
-     font-family: monospace;
+     font-family: 'arial';
      background-color: cornsilk
  }
 
@@ -11,4 +11,13 @@
 
  main {
      background-color: floralwhite
+ }
+
+ #somename {
+     color: #d2afac;
+ }
+
+ #someothername {
+     color: #d2afac;
+     font-style: italic
  }
