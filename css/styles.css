@@ -21,3 +21,39 @@
      color: #d2afac;
      font-style: italic
  }
+
+ body main h1 {
+     color: #ffafa0
+ }
+
+ h1,
+ h2 {
+     font-family: 'arial'
+ }
+
+ a:hover {
+     color: #ffafa0
+ }
+
+ @media screen and (max-width: 50rem) {
+
+     header,
+     main,
+     footer,
+     form p {
+         flex-direction: column;
+     }
+
+     form input,
+     textarea {
+         margin: 2px 0
+     }
+
+     .hero-text {
+         flex: non;
+     }
+
+     form select {
+         margin: 0;
+     }
+ }
