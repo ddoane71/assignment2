@@ -50,10 +50,19 @@
      }
 
      .hero-text {
-         flex: non;
+         flex: none;
      }
 
      form select {
          margin: 0;
      }
+ }
+
+ #boxelement {
+     border: 5px #088bbf;
+ }
+
+ #header {
+     background: #e48d98;
+     border: 5px #e48d78;
  }
