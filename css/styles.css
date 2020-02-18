@@ -1,68 +1,65 @@
- h1,
- h2 {
-     color: rgb(0, 0, 50);
-     font-family: 'arial';
-     background-color: cornsilk
- }
+html {
+    color: #d8d0c2;
+    box-sizing: border-box;
+    margin: 0;
+}
 
- body {
-     background-color: floralwhite
- }
+#myheader {
+    color: #cbab8a;
+    border: 5px solid #d2afac;
+}
 
- main {
-     background-color: floralwhite
- }
+h1,
+h2 {
+    color: rgb(0, 0, 50);
+    font-family: 'arial';
+    background-color: cornsilk
+}
 
- #somename {
-     color: #d2afac;
- }
+body {
+    background-color: #d8d0c2;
+    padding: 15px;
+    margin: 15px;
+    border: 5px solid #d2afac;
+}
 
- #someothername {
-     color: #d2afac;
-     font-style: italic
- }
+main {
+    background-color: #d8d0c2;
+}
 
- body main h1 {
-     color: #ffafa0
- }
 
- h1,
- h2 {
-     font-family: 'arial'
- }
+a:hover {
+    color: #ffafa0;
+}
 
- a:hover {
-     color: #ffafa0
- }
+@media screen and (max-width: 50rem) {
 
- @media screen and (max-width: 50rem) {
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
 
-     header,
-     main,
-     footer,
-     form p {
-         flex-direction: column;
-     }
+    form input,
+    textarea {
+        margin: 2px 0
+    }
 
-     form input,
-     textarea {
-         margin: 2px 0
-     }
+    .hero-text {
+        flex: none;
+    }
 
-     .hero-text {
-         flex: none;
-     }
+    form select {
+        margin: 0;
+    }
+}
 
-     form select {
-         margin: 0;
-     }
- }
+#boxelement {
+    border: 5px #088bbf;
+}
 
- #boxelement {
-     border: 5px #088bbf;
- }
-
- #header {
-     background: #e48d98;
-     border: 5px #e48d78;
- }
+#header {
+    background: #e48d98;
+    border: 5px #e48d78;
+}
