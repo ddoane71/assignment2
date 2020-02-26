@@ -1,6 +1,5 @@
 h1,
-h2,
-    {
+h2 {
     color: #bde4a8;
     font-family: 'arial';
     font-size: 2em
@@ -35,6 +34,20 @@ a:hover {
 
 #welcome {
     color: #79b4a9;
+    font-size: 5em;
+    font-style: oblique;
+}
+
+#topics {
+    border: 15px solid #9cc69b;
+    border-color: #9cc69b;
+    border-width: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main nav ul li {
+    color: #676F54;
     font-size: 5em;
     font-style: oblique;
 }
